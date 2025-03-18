@@ -1,0 +1,22 @@
+body {
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./Components/Assets/background.jpg')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .SignWrap{
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./Components/Assets/background.jpg')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10cm;
+  }

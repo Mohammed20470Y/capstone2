@@ -1,0 +1,25 @@
+html, body {
+  height: 100%; /* Ensure full height */
+  margin: 0; /* Remove default margin */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+
+/* Home.css */
+.App {
+  min-height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.Navbar, .Welcom, .ScrollableCards {
+  width: 100%;
+  flex: 1; /* Allow these components to stretch */
+}
+
+
+h1.blank {
+  margin-top: 30px; /* Adjust this value to your liking */
+}
+

@@ -1,0 +1,57 @@
+.nav {
+    background-color: rgb(43, 43, 185);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 4%;
+    box-sizing: border-box;
+    min-height: 80px;
+    width: 100%;  /* Ensure the nav takes up full width of the screen */
+    position: fixed;  /* Fixes the navbar to the top */
+    top: 0;  /* Positions it at the top */
+    left: 0;  /* Aligns the navbar to the left */
+    z-index: 1000;  /* Ensures it stays on top of other elements */
+  }
+  
+  .site-title {
+    font-size: 32px;
+  }
+  
+  .nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    cursor: pointer;
+    border: 2px solid transparent; /* Ensures the element size remains the same */
+  }
+  
+  .navLog {
+    text-decoration: underline;
+  }
+  
+  .nav li.active {
+    background-color: #555;
+  }
+  
+  .nav li:hover {
+    background-color: white;
+    color:black ;
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    padding: 0 10 0 10;
+  }
+  

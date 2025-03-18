@@ -1,0 +1,91 @@
+.schedule-container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background: #f5c2eb;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    color: #3d3d3d;
+    font-weight: bold;
+  }
+  
+  .team {
+    color: #666;
+  }
+  
+  .date-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .date {
+    padding: 10px;
+    background: #e3e3e3;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .date.selected {
+    background: #d400a7;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .time-container {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    font-size: 14px;
+    color: #d400a7;
+    font-weight: bold;
+  }
+  
+  .time-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .time {
+    padding: 10px;
+    background: #d3d3d3;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .time.selected {
+    background: #d400a7;
+    color: white;
+  }
+  
+  .appointment-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: #003d99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .appointment-btn:disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,101 @@
+html, body {
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+ }
+  
+.Message {
+    margin-top: 3%; /* Adjust this value based on your navbar height */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fefefe;
+    max-width: 80%;
+    margin-left: 5%;
+}
+
+.text-content {
+    flex: 1;
+    text-align: left;
+}
+
+.image-content {
+    flex: 1;
+    justify-content: right;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold; /* Ensure the h1 is bold */
+    text-align: left;
+    margin: 0; /* Remove any margin to ensure alignment */
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.6;
+    font-weight: normal; /* Make h2 regular */
+    text-align: left; /* Ensure h2 aligns with h1 */
+}
+
+link .serviceButton{
+    background-color: aqua;
+}
+
+.serviceButton{
+    background-color: #007bff;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+
+
+}
+  
+.serviceButton:hover {
+    background-color: #007bff;
+    transform: scale(1.05);
+    box-shadow: #333 10px;
+  }
+  
+
+  .image-content {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+  }
+  
+  .image-slider {
+    display: flex;
+    width: 300%;
+    animation: slide 10s infinite linear;
+    border-radius: 100px;
+  }
+  
+  .image-slider img {
+    width: 33.33%;
+    flex-shrink: 0;
+
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-33.33%); }
+    66% { transform: translateX(-66.66%); }
+    100% { transform: translateX(0%); }
+  }
+  
